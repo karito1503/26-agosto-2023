@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- libreria iniciales de la clase-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--libreria para traer los icinos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!--estilos propios-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand"> <i class="bi bi-currency-bitcoin"></i>
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <!--icon del menu -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Comunidad</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Invierte</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button type="button" class="btn btn-dark">Comenzar</button>
+            <button type="button" class="btn btn-info">Registro</button>
+        
+            
+        </div>
+    </nav><br><br><br>
+
+    <h1>Bitcoin</h1>
+
+    <h6>Bitcoin es una innovadora red de pagos y una nueva clase de dinero</h6><br><br>
+
+<div class="centrar">
+    <button type="button" class="btn btn-secondary">¿Que es Bitcoin?</button>
+    <button type="button" class="btn btn-warning">¿Como comenzar?</button>
+</div>
+<br><br><br> 
+
+<div class="row">
+    <div class="col-6">
+        <!-- contenido de carrusel-->
+        <div class="carousel slide" id="carrusel-principal">
+
+                <!--indicadores de carrusel
+                data-bs-target va el nombre del id del carrusel
+            data-bs-slide-to indica la posicion del slide, arranca en 0-->
+
+                <div class="carousel-indicators">
+                    <button type="button" 
+                        data-bs-slide-to="0" 
+                        class="active" 
+                        data-bs-target="#carrusel-principal"></button>
+                    
+                    <button type="button"
+                        data-bs-slide-to="1" 
+                        data-bs-target="#carrusel-principal"></button>
+
+                    <button type="button" 
+                        data-bs-slide-to="2" 
+                        data-bs-target="#carrusel-principal"></button>
+            </div>
+        <!-- contenido de imagenes -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img class="w-100" src="https://public.bnbstatic.com/image/cms/blog/20210720/2611ba8e-609e-4c7b-8ced-0cef1cb907dd.png">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="w-100" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/02/bitcoin-2621405.jpg?tf=3840x">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="w-100" src="https://public.bnbstatic.com/image/cms/blog/20210720/2611ba8e-609e-4c7b-8ced-0cef1cb907dd.png">
+                </div>
+
+            </div>
+            <!-- navegacion del carrusel -->
+            <button type="button"
+                        class="carousel-control-prev"
+                        data-bs-target="#carrusel-principal"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+            <button type="button"
+                    class="carousel-control-next"
+                    data-bs-target="#carrusel-principal"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+                
+
+        </div>
+
+    </div>
+            <div class="col-6"><br><br><br><br>
+                <div class="precio"><h1><b>Precio en Bitcoin</b></h1></div>
+                    <h4><span class="costo">$26,057.56</span>  <span class="dolares">0.15%(1 D)</span></h4>
+            </div>
+</div>
+        
+</body>
+</html>
+
